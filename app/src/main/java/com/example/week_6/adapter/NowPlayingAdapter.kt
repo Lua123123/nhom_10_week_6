@@ -10,10 +10,10 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.week_6.GRID_LAYOUT
+import com.example.week_6.LINEAR_LAYOUT
 import com.example.week_6.R
 import com.example.week_6.movie.Movie
-import com.team12.android_challenge_w6.GRID_LAYOUT
-import com.team12.android_challenge_w6.LINEAR_LAYOUT
 
 class NowPlayingAdapter(val ctx:Context):ListAdapter<Movie, NowPlayingAdapter.ViewHolder>(NowPlayingMovieDiffUtilCallback()) {
     private var currentLayout = LINEAR_LAYOUT

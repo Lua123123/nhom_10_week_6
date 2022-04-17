@@ -11,8 +11,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.week_6.R
 import com.example.week_6.adapter.NowPlayingAdapter
-import com.team12.android_challenge_w6.GRID_LAYOUT
-import com.team12.android_challenge_w6.LINEAR_LAYOUT
+import com.example.week_6.GRID_LAYOUT
+import com.example.week_6.LINEAR_LAYOUT
 
 class NowPlayingFragment(val nowPlayingMovieAdapter: NowPlayingAdapter):Fragment() {
 
